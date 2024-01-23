@@ -58,4 +58,10 @@ console.log(b);
 // substring
 //abcdefg
 //0123456
-let d = b.sunstring();
+let d = b.substring(2,6);// ending index is not inclusive.
+console.log(d);
+
+let myName = 'Christopher'
+let index = myName.indexOf('t');
+
+console.log(index)
