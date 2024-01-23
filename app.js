@@ -29,5 +29,33 @@ console.log('Length of msgStringLiteral is ', msgStringLiteral.length);
 
 //Excape & New Line
 let a = "Add a new line\n\nThis is another line";
+
 console.log(l);
 console.log(a);
+
+console.log(l);
+
+let b = 'abcdefg'
+
+console.log(b);
+
+b = b.toUpperCase();
+
+console.log(b);
+
+b = b.toLowerCase;
+
+console.log(b);
+
+// substr
+//abcdefg
+//0123456
+
+let c = b.substr(2,4);
+console.log(c);
+console.log(b);
+
+// substring
+//abcdefg
+//0123456
+let d = b.sunstring();
